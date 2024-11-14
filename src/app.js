@@ -3,7 +3,7 @@ const app = express();
 
 const usersRouter = require('./routes/users');
 const questionRouter = require("./routes/questions");
-const anwserRouter = require('./router/answers');
+const anwserRouter = require('./routes/answers');
 
 const bodyParser = require('body-parser');
 const cors = require('cors');
